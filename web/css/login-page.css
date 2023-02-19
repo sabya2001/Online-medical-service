@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  margin:30px 30px 30px 30px;
+}
+h2{
+    color:rgb(1, 146, 98);
+}
+.header{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(232, 229, 229, 0.385);
+    background-color:rgb(243, 255, 251);
+    
+}
+main,form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+    height: 80%;
+    gap:25px;
+    font-size: 20px;
+}
+form{
+    width: 50%;
+}
+.radio-credentials{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+}
+.credentials{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap:10px;
+}
+main input{
+
+    border:1px solid rgb(153, 152, 152);
+    padding:10px;
+    border-radius:5px;
+}
+.links{
+    
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   font-size: 12px;
+}
+.links a{
+    text-decoration:none;
+}
+.submit{
+    width:50%;
+    background-color: rgb(148, 246, 153);
+    border:none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    padding:5px
+}
+.emergency{
+    width:75px;
+    height:75px;
+    background-color: rgb(254, 77, 77);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 5px rgba(232, 229, 229, 0.385);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+}
+.emegency:hover{
+    cursor:pointer;
+}
+.emergency button{
+    background-color: rgba(240, 248, 255, 0);
+    color:white;
+    font-weight: 500;
+    font-size: 10px;
+}

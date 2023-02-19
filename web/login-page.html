@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/login-page.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Online Medical System</h1>
+        <a class="emergency" href="#">
+            <button>Emergency</button>
+        </a>
+    </div>
+    <main>
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <div class="radio-credentials">
+                <div class="radio-options">
+                    <label for="admin">Admin</label>
+                    <input type="radio" name="role" id="admin">
+                </div>
+                <div class="radio-options">
+                    <label for="patient">Patient</label>
+                    <input type="radio" name="role" id="patient">
+                </div>
+                <div class="radio-options">
+                    <label for="doctor">Doctor</label>
+                    <input type="radio" name="role" id="doctor">
+                </div>
+            </div>
+            <div class="credentials">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="credentials">
+                <label for="pasword">Password</label>
+                <input type="text" name="password" id="password">
+            </div>
+            <div class="links">
+                <a href="#">Forgot password?</a>
+                <a href="#">Signup as patient</a>
+            </div>
+            <input class="submit" type="submit" value="Login">
+
+        </form>
+    </main>
+</body>
+
+</html>
